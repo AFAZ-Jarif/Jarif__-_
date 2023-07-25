@@ -1,0 +1,27 @@
+*{ padding: 0;
+    margin: 0;
+   
+}
+body{ 
+    background-image: radial-gradient(red, green, blue);}
+    
+
+ul{  background-image: url( https://miro.medium.com/v2/resize:fit:1400/1*aTYOTFS4Vkr-nwHNML3GvQ.jpeg);
+padding: 15px;
+
+}
+ul>li{ display: inline;}
+ul>li>a{ list-style-type: none;
+         padding: 25px;
+         text-decoration: none;
+         color: #fff;
+         }
+ul>li>a:hover{ background-color: rgb(0, 255, 170);
+                color: rgb(162, 0, 255);
+                transition: 1s;
+            }
+
+
+
+
+
